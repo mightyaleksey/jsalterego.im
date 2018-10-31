@@ -1,0 +1,11 @@
+.link,
+.link:visited {
+  color: #00f;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: orange;
+  text-decoration: none;
+}

@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font: 16px/21px 'Libre Baskerville', serif;
+
+  position: relative;
+}
+
+._31TAK,
+._31TAK:visited {
+  color: #00f;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+._31TAK:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+._qsxI9 {
+  text-align: center;
+
+  position: fixed;
+  bottom: 20px;
+
+  box-sizing: border-box;
+  width: 100%;
+}
+
+._15PjD {
+  text-decoration: none;
+
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+
+._15PjD::before {
+  content: '\2190';
+  margin: 0 .4em 0 0;
+}
+
+._15PjD span {
+  text-decoration: underline;
+}
+
+._15PjD:hover span {
+  text-decoration: none;
+}
+
+._1fx-y {
+  text-align: center;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  min-height: 100%;
+}
+
+._3LByy {
+  font-size: 3rem;
+
+  margin: 1em 0;
+}
+
+._3zeGI {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0 8px;
+
+  border: 1px solid #ccc;
+  border-radius: 0;
+  outline: none;
+  background: white;
+
+  font: 16px/26px arial;
+
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+._3zeGI::-ms-clear
+{
+  display: none;
+}
+
+._3zeGI:-moz-placeholder,
+._3zeGI:-ms-input-placeholder,
+._3zeGI::-moz-placeholder,
+._3zeGI::-webkit-input-placeholder
+{
+  text-indent: 0;
+
+  color: #999;
+}
+
+._3zeGI:focus {
+  border-color: orange;
+}
+
+._1Eho1 {
+  display: block;
+  border: 2px dashed #ccc;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 100% 0 0;
+}
+
+._2jbUU {
+  display: inline-block;
+  margin: 0 0 10px;
+  padding: 0;
+  width: 33.33%;
+}
+
+._3OlZU {
+  width: 100%;
+}
+
+._3pzXD {
+  text-align: center;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100%;
+}
+
+._1LlrX {
+  width: 200px;
+}
+
+._uG4OX {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+

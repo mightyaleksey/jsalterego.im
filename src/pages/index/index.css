@@ -1,0 +1,15 @@
+.body {
+  text-align: center;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  min-height: 100%;
+}
+
+.h1 {
+  font-size: 3rem;
+
+  margin: 1em 0;
+}
