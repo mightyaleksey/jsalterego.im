@@ -1,0 +1,13 @@
+{
+  "name": "jsalterego.im",
+  "dependencies": {
+    "choo": "^6.13.1",
+    "parcel-bundler": "^1.10.3",
+    "postcss-modules": "^1.4.1",
+    "pug": "^2.0.3"
+  },
+  "scripts": {
+    "build": "parcel build src/pages/*/index.pug --no-source-maps",
+    "start": "parcel serve src/pages/index/index.pug"
+  }
+}
