@@ -1,0 +1,29 @@
+@media print {
+  .cv-page a[href]::after {
+    content: ' (' attr(href) ')';
+    font-size: .75rem;
+    font-variant: normal;
+    letter-spacing: .1rem;
+    word-break: break-word;
+  }
+}
+
+.main-page {
+  background: black;
+}
+
+.main-page #entry {
+  height: 100vh;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: block;
+
+  width: 100%;
+  height: 100vh;
+}
+
