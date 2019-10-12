@@ -9,3 +9,10 @@
     word-break: break-word;
   }
 }
+._8b6fdf64 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 4rem;
+    min-height: 0;
+    min-width: 0;
+  }
