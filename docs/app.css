@@ -1,0 +1,24 @@
+@supports (-webkit-touch-callout: none) {
+  .vh-100 {
+    height: -webkit-fill-available
+  }
+}
+
+.fit-cover {
+  object-fit: cover;
+}
+
+.top-center {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.visibility-hidden {
+  opacity: 0;
+  transform: translateX(-999px);
+}
+
+.visibility-hidden:focus {
+  opacity: 1;
+  transform: translateX(0);
+}
