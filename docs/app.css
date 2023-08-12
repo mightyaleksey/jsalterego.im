@@ -1,7 +1,13 @@
+/* fix for iOS devices */
 @supports (-webkit-touch-callout: none) {
   .vh-100 {
     height: -webkit-fill-available
   }
+}
+
+html {
+  background-color: #104c6a;
+  height: 100%;
 }
 
 .fit-cover {
