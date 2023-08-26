@@ -14,6 +14,10 @@ html {
   object-fit: cover;
 }
 
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
 .top-center {
   top: 50%;
   transform: translateY(-50%);
