@@ -1,0 +1,1 @@
+function i(n,t){if(!n)throw new Error(t??"Invariant violation")}function r(n,t){if(n==null)throw new Error(t??"Got unexpected null");return n}function o(n){return n!==null&&typeof n=="object"}function u(n,t){const e=t.indexOf(n);return i(e>-1,"nextState: value is not listed in states"),t[(e+1)%t.length]}export{i as a,r as b,o as i,u as n};

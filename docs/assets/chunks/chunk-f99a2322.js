@@ -1,0 +1,1 @@
+function o(u,l){const e=typeof l=="number"?{wait:l}:l,c=e==null?void 0:e.leading,d=(e==null?void 0:e.trailing)??!0,r=(e==null?void 0:e.wait)??100;let i=!1,n=null;return function(...a){clearTimeout(n),c&&n==null?(u.apply(null,a),i=!0):i=!1,n=setTimeout(f,r,a)};function f(t){d&&!i&&u.apply(null,t),n=null}}export{o as d};
